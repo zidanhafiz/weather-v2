@@ -1,0 +1,11 @@
+.hour-forecast {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80px;
+}
+
+.hour-forecast p {
+  margin: 0;
+  font-size: 14px;
+}

@@ -1,0 +1,12 @@
+.location-title {
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.location-title h4 {
+  font-family: "Barlow", sans-serif;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 300;
+  margin: 0;
+}

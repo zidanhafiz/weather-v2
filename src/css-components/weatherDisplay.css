@@ -1,0 +1,35 @@
+.weather-display {
+  width: 100%;
+  display: flex;
+  font-family: "Barlow", sans-serif;
+  justify-content: space-between;
+}
+
+.section-a img {
+  width: 80px;
+}
+
+.section-b {
+  width: 60%;
+  text-align: center;
+}
+
+.section-b h4 {
+  font-size: 40px;
+  margin: 0;
+  font-weight: 500;
+  position: relative;
+}
+
+.section-b h4 span {
+  font-size: 20px;
+  position: absolute;
+  top: 5px;
+  right: 25px;
+}
+
+.section-b p {
+  margin: 0;
+  font-size: 12px;
+  line-height: 18px;
+}
