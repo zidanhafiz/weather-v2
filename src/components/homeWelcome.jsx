@@ -9,17 +9,12 @@ import HourForecast from "./hoursForecast";
 import Placeholders from "./placeholders";
 import Error400 from "./error400";
 
-function HomeWelcome() {
-  const [input, setInput] = useState();
+function HomeWelcome({ getInput, input }) {
   const [location, setLocation] = useState({});
   const [condition, setCondition] = useState({});
   const [forecast, setForecast] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(false);
-
-  const getInput = (value) => {
-    setInput(value);
-  };
 
   useEffect(() => {
     if (input) {
@@ -127,6 +122,8 @@ function HomeWelcome() {
                       temp={e.temp_c}
                       icon={e.condition}
                       key={e.time_epoch}
+                      id={e.time_epoch}
+                      input={input}
                     />
                   );
                 })}

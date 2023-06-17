@@ -1,0 +1,16 @@
+.link {
+  color: #fff;
+  text-decoration: none;
+}
+
+.link:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+.back-navigation {
+  display: flex;
+  gap: 0.5rem;
+  font-size: 14px;
+  font-weight: 400;
+}

@@ -1,10 +1,10 @@
 import HomeWelcome from "../components/homeWelcome";
 
-function Home() {
+function Home({ getInput, input }) {
   return (
     <div className="container">
       <section className="home-welcome">
-        <HomeWelcome />
+        <HomeWelcome getInput={getInput} input={input} />
       </section>
     </div>
   );
