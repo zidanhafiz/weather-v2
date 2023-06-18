@@ -76,6 +76,7 @@ function HomeWelcome({ getInput, input }) {
                   }
                   name="Kelempaban"
                   value={[condition.humidity, <span> %</span>]}
+                  key={Math.floor(Math.random() * 1000)}
                 />
                 <OtherDetails
                   icon={
@@ -86,6 +87,7 @@ function HomeWelcome({ getInput, input }) {
                   }
                   name="Berawan"
                   value={[condition.cloud, <span> %</span>]}
+                  key={Math.floor(Math.random() * 1000)}
                 />
               </div>
               <div className="col-b">
@@ -98,6 +100,7 @@ function HomeWelcome({ getInput, input }) {
                   }
                   name="Angin"
                   value={[Math.floor(condition.wind_kph), <span> Kpj</span>]}
+                  key={Math.floor(Math.random() * 1000)}
                 />
 
                 <OtherDetails
@@ -109,6 +112,7 @@ function HomeWelcome({ getInput, input }) {
                   }
                   name="Indeks UV"
                   value={[Math.floor(condition.uv), <span> dari 10</span>]}
+                  key={Math.floor(Math.random() * 1000)}
                 />
               </div>
             </section>
