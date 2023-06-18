@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 40px;
+  width: 60px;
 }
 
 .hour-forecast p {
@@ -13,9 +13,12 @@
 .hour-details-link {
   color: #fff;
   text-decoration: none;
+  transition: 0.3s;
 }
 
 .hour-details-link:hover {
   color: #fff;
   text-decoration: none;
+  background: rgba(64, 111, 153, 0.5);
+  border-radius: 15px;
 }

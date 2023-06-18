@@ -121,7 +121,7 @@
   padding: 0 1rem;
   overflow: scroll;
   display: flex;
-  gap: 40px;
+  gap: 1em;
   justify-content: flex-start;
 }
 
@@ -212,4 +212,37 @@
 .hour-details-page .footer {
   grid-area: content;
   align-self: end;
+}
+
+.days-forecast {
+  color: #fff;
+  padding: 1rem 1.5rem 0;
+  font-family: "Assistant", sans-serif;
+  height: 100vh;
+  max-height: 100vh;
+  box-sizing: border-box;
+}
+
+.days-forecast .header {
+  text-align: center;
+  font-size: 18px;
+}
+
+.days-forecast .header h4 {
+  font-weight: 300;
+  margin: 1rem 0 0;
+}
+
+.days-forecast .header p {
+  font-weight: 300;
+  font-size: 12px;
+  margin: 0.5rem 0 2rem;
+}
+
+.days-forecast .forecast-day {
+  margin: 1.5rem 0;
+}
+
+.days-forecast .footer {
+  margin: 20% 0 0;
 }

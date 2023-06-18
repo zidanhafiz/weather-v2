@@ -8,6 +8,7 @@ import OtherDetails from "./otherDetails";
 import HourForecast from "./hoursForecast";
 import Placeholders from "./placeholders";
 import Error400 from "./error400";
+import { Link } from "react-router-dom";
 
 function HomeWelcome({ getInput, input }) {
   const [location, setLocation] = useState({});
@@ -134,7 +135,9 @@ function HomeWelcome({ getInput, input }) {
               </div>
               <div className="nav-bottom">
                 <p>Hari Ini</p>
-                <p>3 Hari Kedepan</p>
+                <Link className="link" to="/daysforecast">
+                  <p>3 Hari Kedepan</p>
+                </Link>
               </div>
               <Footer />
             </section>
